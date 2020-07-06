@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #c1c1c1;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+section {
+    display: flex;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.muted {
+    color: #8e8e8e;
+}
+
+footer {
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.personal-info-container {
+    text-align: center;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-buttons a {
+    padding: 8px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-buttons a:hover {
+    background-color: #313131;
+    border-radius: 50%;
+}
+
+.social-buttons svg {
+    width: 26px;
+    color: #c1c1c1;
+}
+
+.cv svg {
+    width: 20px;
+}
